@@ -50,7 +50,83 @@ a{
     color: inherit;
 }
 
+
+.hack1{
+    position: absolute;
+    width: 1000px;
+    top: 10%;
+    left: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+    color: #99e2ae;
+    animation-name: hacker1;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hacker1 {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(500px);
+    }
+    50%{
+        transform: translateX(1000px);
+    }
+    75%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+
+}
+
+.hack2{
+    display: none;
+}
+.hack4{
+    display: none;
+}
+.hack3{
+    width: 2000px;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+    color: #99e2ae;
+    animation-name: hacker3;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hacker3 {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(1000px);
+    }
+    50%{
+        transform: translateX(2000px);
+    }
+    75%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+
+}
+
 .wrapper{
+    position: relative;
     width: 100vw;
     height: 100vh;
     display: flex;
